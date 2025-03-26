@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css"
+
 </head>
+
 <body>
     <!-- ceci est ma barre de navigation -->
     <nav>
@@ -19,25 +23,25 @@
 
     <section>
         <div>
-        <img src="/images/WhatsApp Image 2024-05-23 à 13.59.32_05f9c8a3.jpg" alt="Ceci est mon image dans un laboratoire">
+        <img src="/1693948394116.jpg">
         </div>
     </section>
 
     <section>
         <div>
-            <h2 id="Accueil">Accueil</h2>
-            <p>Bienvenue sur ma premiére page web intitulée My portfolio </p>
+            <h2 id="Accueil" class="title1">Accueil</h2>
+            <p class="para1">Bienvenue sur ma premiére page web intitulée My portfolio </p>
         </div>
 
         <div>
-            <h2 id="A propos">A propos</h2>
+            <h2 id="A propos" class="title2">A propos</h2>
             <p>Je m'appelle El Hadji Atibou Diallo
                  <br>Je suis étudiant en developpement web chez GoMyCode <br>
             Je suis passionné des nouvelles technologies </p>
         </div>
 
         <div>
-            <h2 id="Travail">Travail</h2>
+            <h2 id="Travail" class="title3">Travail</h2>
             <ul>
                 <li>Etudiant</li>
                 <li>Boulanger</li>
@@ -46,78 +50,44 @@
         </div>
 
         <div>
-            <h2 id="CV">CV</h2>
-            <h3>ETUDES ET FORMATIONS </h3>
-            <ul>
-                <li>2024        :Licence 1 Science de l’eau et de l’environnement à l’Université Iba Der Thiam de Thiés </li>
-                <li>2022-2023: Bac S2 au Lycée de Diacounda</li>
-                <li>2018-2019:BFEM au CEM de Faoune </li>
-                <li>2013-2014:CFEE à L’école élémentaire de Touba Mouride </li>
-            </ul>
+            <h2 id="CV" class="title4">CV</h2>
+            <a href="/cv.pdf" download>Télécharger le PDF</a>
         </div>
+        
 
-        <div>
-                <h3>EXPERIENCES PROFESSIONNELLES </h3>
-            <ul>
-                <li>2023-2024(vacances):vendeur de quincaillerie</li>
-                <li>2020-2022(vacances):Chef d’équipe boulanger </li>
-            </ul>
-        </div>
-    
-        <div>
-            <h3>COMPETENCES</h3>
-            <ul>
-                <li>Vente  et Négociation </li>
-                <li>Communication </li>
-                <li>Capacité à apprendre rapidement</li>
-                <li>Bureautique niveau intermédiaire</li>
-                <li>Montage vidéo</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>LANGUES </h3>
-            <ul>
-                <li>Français: Avancé </li>
-                <li>Anglais: Moyen</li>
-                <li>Autres langues :Peulh( natif) ,Wolof (très bien)</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>HOBBIES</h3>
-            <ul>
-                <li>Lecture (développement personnel ...)</li>
-                <li>Sport (courir,gymnastique ...)</li>
-                <li>Réseaux sociaux (tutoriel  ,podcast,vlog...)</li>
-            </ul>
-        </div>
-            <p>
-            </p>
-        </div>
-
-        <div>
-            <h2 id="Contact">Contact</h2>
-            <div>
+        <div id="contact-section" class="contact-section">
+            <h2 id="Contact" class="title5">Contact</h2>
+            <div id="form" class="form1">
                 <form action="">
                   <label for="name">nom: </label>
                 <input type="text" name="name" 
+                <textarea placeholder="Votre nom..."></textarea>
                  
               </div>
-                <label for="name">prénom: </label>
+
+              <div id="form" class="form1">
+                <label for="name" class="form2">prénom: </label>
                 <input type="text" name="name"
+                <textarea placeholder="Votre prénom..."></textarea>
                 
               </div>
-                <label for="name">email: </label>
+
+              <div id="form" class="form3">
+                <label for="name" class="form3">email: </label>
                 <input type="text" name="name" 
+                <textarea placeholder="Votre email..."></textarea>
                 
-                </form>
+                
             </div>
-            <label for="message">message</label>
+            
           
-          <textarea id="message" name="message" rows="5" cols="33">
-          Entrer ici votre message...
-          </textarea>
+          <div id="form" class="form4">
+    <h3>Laisser un message</h3>
+    <form>
+        <textarea placeholder="Votre message..."></textarea>
+        <button type="submit" id="button" class="button">Envoyer</button>
+    </form>
+</div>
               
               
             

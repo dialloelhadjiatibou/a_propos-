@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(215, 210, 210);
+    border-color: rgba(0, 0, 0, 0.705);
+    
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(215, 210, 210);
+    padding: 20px 100px;
+}
+p {
+    background-color: rgb(215, 210, 210);
+    padding: 20px 100px;
+    text-align: center;
+}
+nav {
+    padding:0% ;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 20px;
+    background-color: rgb(215, 210, 210);
+    box-decoration-break: clone;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+   background-color: rgba(15, 13, 13, 0.413);
+}
+
+nav li {
+    display: inline-block;
+    padding:5px ;
+    color: rgba(47, 17, 215, 0.865);
+}
+
+nav li a {
+    color: rgba(47, 17, 215, 0.865);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(197, 234, 234);
+    display: flex;
+    justify-content: center;
+}
+.title1 {
+    color: blue;
+    background-color: rgb(237, 237, 121);
+    text-align: center;
+    }
+
+
+.title2 {
+    color: blue;
+    background-color: rgb(237, 237, 121);
+    text-align: center;
+}
+
+.title3 {
+    color: blue;
+    background-color: rgb(237, 237, 121);
+    text-align: center;
+    
+}
+ul {
+    text-align: center;
+}
+.title4 {
+    color: blue;
+    background-color: rgb(237, 237, 121);
+    text-align: center;
+}
+.title5 {
+    color: blue;
+    background-color: rgb(237, 237, 121);
+   text-align: center;
+}
+
+.para1 {
+    background-color: rgb(215, 210, 210);
+    padding: 20px 100px;
+}
+
+.form1 {
+    margin-bottom: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
+
+.form2 {
+    margin-bottom: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.form3 {
+    margin-bottom: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button {
+    background-color: rgb(237, 237, 121);
+}
+
+.contact-section {
+    text-align: center;
+}
